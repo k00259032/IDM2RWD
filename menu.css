@@ -1,0 +1,58 @@
+body {
+    font-family: "Georgia", serif;
+    line-height: 175%;
+}
+h1 {
+    font-size: 1.5em;
+    color: purple;
+}
+h2 {
+    font-weight: bold;
+    font-family: "Georgia", serif;
+    font-size: 1.2em;
+}
+dt{
+    font-weight: bold;
+    color: olive;
+}
+strong{
+    font-style:italic ;
+}
+dt strong {
+    color: maroon;
+}
+
+header p {
+    font-style: italic;
+    color: grey;
+}
+.price {
+    font-family: "Georgia", serif;
+}
+.label {
+    font-weight: bold;
+}
+.warning {
+    font-size: small;
+    color: red;
+}
+
+header, h2, #appetizers p, #entrees p {
+    text-align: center;
+}
+
+#appetizers h2, #entrees h2{
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    color: purple
+}
+
+#appetizers p, #entrees p {
+    font-style: italic;
+}
+
+div {
+    width: 80%;
+    margin: auto;
+}
